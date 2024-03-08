@@ -88,7 +88,7 @@ def image_process(img):
             prediction, index = classifier.getPrediction(imgWhite)
 
 
-        if len(prev_letters) == 2:
+        if len(prev_letters) == 1: // 2
 
             current_letter = labels[index]
             
